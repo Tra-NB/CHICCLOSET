@@ -216,4 +216,11 @@ body {
 .container.active .toggle-right {
     transform: translateX(0);
 }
+.btnBack{
+    margin-left:1000px;
+    cursor: pointer;
+    color: #800000;
+    border-radius: 20px;
+    padding: 10px;
+}
 
