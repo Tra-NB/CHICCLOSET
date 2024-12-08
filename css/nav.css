@@ -1,0 +1,37 @@
+
+.nav-container{ 
+    padding-bottom: 10px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.nav-content{
+    display: flex;
+    align-items: center;
+    padding-bottom: 1.25rem;
+    justify-content: space-between;
+}
+.navigation-list{
+    display: flex;
+    list-style: none;
+}
+.navigation-link{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.navigation-item{
+    padding: 0 80px 0 80px;
+}
+.search{
+    background-color: #fff;
+    border: none;
+    color: #800000;
+    font-size: 24px;
+}
+.open-mobile-menu{
+    background-color: #fff;
+    border: none;
+    color: #800000;
+    font-size: 24px;
+}

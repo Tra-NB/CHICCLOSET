@@ -2,10 +2,11 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family:"Kanit", sans-serif;
     box-sizing: border-box;
 }
-.container{
+
+.header-container{
     padding-top: 40px;
     padding-bottom: 10px;
     padding-left: 5rem;
