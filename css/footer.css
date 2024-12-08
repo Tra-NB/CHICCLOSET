@@ -8,7 +8,7 @@
    
 }
 .footer-navigation{
-    
+    margin-bottom: 100px;
     border-style: solid;
     border-width: 0 0 1px 0;
     display: flex;
@@ -17,6 +17,12 @@
 .footer-nav1{
     display: flex;
     margin: 12px 0 12px 79px;
+}
+.footer-nav2{
+    display: flex;
+    margin: 12px 79px 12px 79px;
+    flex-direction: row-reverse;
+
 }
 .footer-icon{
     padding-right: 15px;
@@ -45,5 +51,8 @@
     padding: 0 10px 0 10px;
 }
 .footer-brand-name{
-    width: 50%;
+    width: 110%;
+}
+.footer-brand-img{
+    width: 40%;
 }
