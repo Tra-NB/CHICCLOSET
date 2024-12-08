@@ -15,10 +15,14 @@
     display: flex;
     list-style: none;
 }
+.navigation-list :hover{
+    color: #800000;
+    font-weight:600;
+}
 .navigation-link{
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 17px;
     cursor: pointer;
 }
 .navigation-item{

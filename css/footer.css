@@ -20,7 +20,7 @@
 }
 .footer-nav2{
     display: flex;
-    margin: 12px 79px 12px 79px;
+    margin: 12px 79px 50px 79px;
     flex-direction: row-reverse;
 
 }
@@ -54,5 +54,5 @@
     width: 110%;
 }
 .footer-brand-img{
-    width: 40%;
+    width: 32%;
 }

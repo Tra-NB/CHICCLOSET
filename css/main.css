@@ -1,0 +1,29 @@
+.main-content{
+    padding-left: 2em;
+    padding-right: 2em;
+    max-width: 650px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 24%;
+    
+}
+.main-Logo{
+    padding-bottom: 30px;
+}
+.main-img{
+    width:100%;
+}
+.TieuDe-main{
+    padding-bottom: 20px;
+}
+.TieuDe-main p {
+    font-size: 25px;
+}
+.TieuDe-- ul{
+    padding: 0 30px 0 67px;
+    line-height: 2;
+}
+.TieuDe-- li{
+    font-size: 14px;
+}
