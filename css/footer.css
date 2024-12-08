@@ -1,0 +1,49 @@
+
+.mainFooter{
+    background-color: #800000;
+    color: #fff;
+    margin-top: 5rem;
+}
+.footer-container{
+   
+}
+.footer-navigation{
+    
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav1{
+    display: flex;
+    margin: 12px 0 12px 79px;
+}
+.footer-icon{
+    padding-right: 15px;
+    font-size: 20px;
+}
+.footer-logo-wrapper{
+    padding: 20px 0 20px 0;
+    margin: 12px 70px 12px 0;
+}
+#footer-fa-brands{
+    color: #fff;
+}
+.footer-navigation-list{
+    display: flex;
+    list-style: none;
+    padding: 20px 0 20px 0;
+}
+
+.footer-navigation-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+}
+.footer-navigation-item{
+    padding: 0 10px 0 10px;
+}
+.footer-brand-name{
+    width: 50%;
+}
