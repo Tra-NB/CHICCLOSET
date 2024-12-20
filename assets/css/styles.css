@@ -1,0 +1,147 @@
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between; /* Dàn đều các phần tử trong header */
+    align-items: center;
+    margin-top: 20px;
+    border-bottom: 1px solid #000; /* Đường viền dưới */
+    box-sizing: border-box; /* Đảm bảo tính toán padding đúng */
+}
+.header{
+    
+    margin: 0 70px 0 70px;
+}
+
+.header-icon__login{
+    display: flex;
+    cursor: pointer;
+
+}
+.icon-login{
+    width: 20px;
+    margin: 0 8px 0 8px ;
+}
+
+.header-logo{
+    margin: 0 200px 0 200px ;
+    width: 380px;
+    cursor: pointer;
+}
+
+.btn{
+    padding: 5px 10px 5px 10px;
+   cursor: pointer;
+}
+
+.btn-white{
+    background-color: #fff;
+    border: 1px #800000 solid;
+}
+.btn-red{
+    color: #fff;
+    background-color: #800000;
+    border: 1px #800000 solid;
+}
+.header-nav{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.header-nav--icon{
+    cursor: pointer;
+}
+.header-nav__list{
+    display: flex;
+    margin: auto;
+}
+.header-nav__item{
+    margin: 0 75px 0 75px;
+}
+.header-nav__link{
+    color: #000;
+    font-size: 20px;
+}
+.header-nav__link:hover{
+    color: #800000;
+    font-weight: 700;
+}
+.header-nav--icon{
+    width: 20px;
+}
+
+.main{
+    margin: 30px 75px 0 75px;
+}
+.body-txtDangNhap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+.txtDangNhap_TieuDe{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.txtDangNhap_list{
+    list-style-type: square; 
+}
+.txtDangNhap_link{
+    color: #000;
+    font-size: 17px;
+    
+}
+
+.main-banner__img{
+    padding: 20px 50px 0 50px;
+    cursor: pointer;
+}
+
+
+footer{
+    margin-top: 30px;
+    background-color: #800000;
+}
+.footer-nav{
+    margin: 20px 75px 30px 75px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #fff; /* Đường viền dưới */
+    box-sizing: border-box; 
+}
+.footer-nav__list{
+    margin-right: auto;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-nav__item{
+    padding: 0 15px 0 0;
+}
+.footer-nav__link{
+    color: #fff;
+}
+.footer-nav-icon__login{
+    
+    margin-bottom: 15px;
+}
+
+.footer-img{
+    display: flex;
+    margin: 20px 75px 30px 75px;
+    align-items: center;
+}
+.footer-img__logo{
+    width: 40%;
+    margin-right: auto;
+    cursor: pointer;
+}
+.footer-img__anh{
+    width: 20%;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
