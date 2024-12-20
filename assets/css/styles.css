@@ -142,6 +142,7 @@ footer{
 .footer-img__anh{
     width: 20%;
     margin-bottom: 40px;
+    border-radius: 53px 0 53px 0;
     cursor: pointer;
 }
 
