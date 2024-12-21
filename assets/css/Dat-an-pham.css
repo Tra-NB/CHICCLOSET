@@ -24,6 +24,7 @@
 }
 .btn:hover{
     background-color: #800000;
+    border: solid  #800000;
     color: #ffffff;
 }
 
@@ -39,4 +40,85 @@
 }
 .hastag__link{
     color: #800000;
+}
+
+#formContainer {
+    background-color: #F2E8C6;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 60px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.form-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  
+}
+
+.form-header h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+   
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #666;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: #000;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-group textarea {
+    resize: none;
+    height: 60px;
+}
+
+.submit-btn {
+    background-color: #800000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.submit-btn:hover {
+    background-color: #ad0303;
 }

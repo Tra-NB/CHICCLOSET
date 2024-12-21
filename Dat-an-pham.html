@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/Dat-an-pham.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     <ul class="header-hastag__list">
@@ -22,11 +23,93 @@
         </li>
     </ul>
 
-    <div class="header-img">
-        <img class="img__logo" src="assets/imges/logo--black.png" alt="CHICCLOSET">
-    </div>
-    <a class="btn-Dat" href="#"> 
-    <button class="btn ">ĐẶT ẤN PHẨM DÀI HẠN</button>
+    <a href="http://127.0.0.1:5500/Home.html">
+
+        <div class="header-img">
+            <img class="img__logo" src="assets/imges/logo--black.png" alt="CHICCLOSET">
+        </div>
     </a>
+    <a class="btn-Dat" href="#"> 
+    <button id="showFormBtn" class="btn ">ĐẶT ẤN PHẨM DÀI HẠN</button>
+    </a>
+
+    <div id="formContainer" style="display: none;" >
+        <div class="form-header">
+            <h2>Đặt ấn phẩm CHICCLOSET</h2>
+        </div>
+        <form action="#">
+            <div class="form-group">
+                <label for="name">Tên</label>
+                <input type="text" id="name" name="name" placeholder="Nhập tên" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Số điện thoại *</label>
+                <input type="tel" id="phone" name="phone" placeholder="Nhập số điện thoại" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Nhập email">
+            </div>
+            <div class="form-group">
+                <label for="address">Địa chỉ của bạn *</label>
+                <input type="text" id="address" name="address" placeholder="Tìm địa chỉ" required>
+            </div>
+            <div class="form-group">
+                <label for="source">Bạn biết đến việc đặt ấn phẩm nhờ vào:</label>
+                <select id="source" name="source">
+                    <option value="">Chọn nguồn</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="google">Google</option>
+                    <option value="email">Email</option>
+                    <option value="other">Khác</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="note">Ghi chú</label>
+                <textarea id="note" name="note" placeholder="Nhập ghi chú"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Tiếp tục</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-nav">
+            <ul class="footer-nav__list">
+                <li class="footer-nav__item">
+                    <a href="#" class="footer-nav__link"> Giới thiệu</a>
+                </li>
+                <li class="footer-nav__item">
+                    <a href="#" class="footer-nav__link"> Điều hoản sử dụng</a>
+                </li>
+                <li class="footer-nav__item">
+                    <a href="#" class="footer-nav__link"> Chính sách riêng tư</a>
+                </li>
+                <li class="footer-nav__item">
+                    <a href="#" class="footer-nav__link"> Câu hỏi thường gặp</a>
+                </li>
+            </ul>
+
+            <div class="footer-nav-icon__login header-icon__login">
+                <img class="icon-login" src="assets/imges/facebook-white-solid (1).svg" alt="Facebook">
+                <img class="icon-login" src="assets/imges/google-white-solid (1).svg" alt="Google">
+                <img class="icon-login" src="assets/imges/instagram-white-solid (1).svg" alt="Instagram">
+                <img class="icon-login" src="assets/imges/twitter-white-solid (1).svg" alt="Twitter">
+            </div>
+        </div>
+
+        <a href="http://127.0.0.1:5500/Home.html">
+
+            <div class="footer-img">
+                <img class="footer-img__logo" src="assets/imges/logo-white.png" alt="">
+                <img class="footer-img__anh" src="assets/imges/anh-footer.png" alt="">
+                
+            </div>
+        </a>
+
+
+     </footer>
+
+    <script src="assets/js/fr-DatAnPham.js"></script>
 </body>
 </html>
