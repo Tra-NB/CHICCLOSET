@@ -10,6 +10,11 @@
 .header{
     
     margin: 0 70px 0 70px;
+    position: fixed; /* Giữ cố định */
+    top: 0; /* Gắn lên phía trên cùng */
+    width: 90%; /* Chiều rộng 100% màn hình */
+    background-color: #fff; /* Màu nền để nội dung không bị che */
+    z-index: 1000; /* Ưu tiên hiển thị trên các phần tử khác */
 }
 
 .header-icon__login{
@@ -71,7 +76,7 @@
 }
 
 .main{
-    margin: 30px 75px 0 75px;
+    margin: 180px 75px 0 75px;
 }
 .body-txtDangNhap{
     display: flex;
@@ -186,7 +191,7 @@
 
 /* footer */
 footer{
-    margin-top: 30px;
+    margin-top:150px;
     background-color: #800000;
 }
 .footer-nav{
