@@ -34,6 +34,9 @@
     width: 300px;
     margin-left: 40px;
     justify-content: center;
+    position: fixed; /* Giữ cố định */
+    top: 0; /* Gắn lên phía trên cùng */
+    z-index: 1000; /* Ưu tiên hiển thị trên các phần tử khác */
 }
 .hastag__item{
     padding: 10px 10px 10px 10px;
