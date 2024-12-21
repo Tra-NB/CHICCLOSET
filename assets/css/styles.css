@@ -97,7 +97,18 @@
 .main-banner__img{
     padding: 20px 50px 0 50px;
     cursor: pointer;
+    width: 100%;
 }
+.slideShow {
+    overflow: hidden; /* Ẩn các phần tử vượt ra ngoài khung */
+    width: 100%; /* Đảm bảo kích thước slideshow chiếm toàn bộ chiều rộng của container */
+}
+
+.list-imges {
+    display: flex; /* Chuyển đổi mượt mà khi di chuyển các ảnh */
+}
+
+
 
 
 footer{

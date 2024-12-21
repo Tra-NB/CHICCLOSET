@@ -37,12 +37,15 @@
     text-decoration: underline;
 }
 
-.close-btn {
+.btn-back {
     background: none;
     border: none;
     color: #fff;
     font-size: 20px;
     margin-bottom: 20px;
+}
+.btn-back:hover{
+    font-weight: 900;
 }
 
 /* Main Content */
