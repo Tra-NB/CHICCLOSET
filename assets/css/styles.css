@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between; /* Dàn đều các phần tử trong header */
     align-items: center;
-    margin-top: 20px;
     border-bottom: 1px solid #000; /* Đường viền dưới */
     box-sizing: border-box; /* Đảm bảo tính toán padding đúng */
 }
