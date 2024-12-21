@@ -52,6 +52,7 @@
     justify-items: center;
     align-items: center;
     margin-top: 10px;
+    margin-bottom: 15px;
 }
 .header-nav--icon{
     cursor: pointer;
@@ -191,7 +192,7 @@
 
 /* footer */
 footer{
-    margin-top:150px;
+    margin-top:180px;
     background-color: #800000;
 }
 .footer-nav{
